@@ -1,10 +1,16 @@
 #How to use
 
-Place these files into a folder in the theme directory (*your-site/themes/govtmin/*)
+**Copy the theme files**
 
-**Page.php**
+Place these files into a folder in the theme directory (`your-site/themes/govtmin/`).
 
-Add the following to the *Page_Controller*
+**Change your theme setting**
+
+Go into a config file (e.g. `your-site/_config/config.yml`) and alter the `SSViewer.theme` setting to `govtmin`.
+
+**Change Page.php**
+
+Add the following to the `Page_Controller` within `Page.php`
 
 ````
 init() {
